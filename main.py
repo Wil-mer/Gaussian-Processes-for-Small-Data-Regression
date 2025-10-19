@@ -6,7 +6,7 @@ from src.experiment import run_tests
 from src.plotting import plot
 
 
-# paths
+# paths, may not be correct everywhere, tested on vsc
 HERE = Path(__file__).resolve()
 PROJECT_DIR = HERE.parents[1]
 DATA_DIR = PROJECT_DIR / "data"
@@ -51,3 +51,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
